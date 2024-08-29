@@ -9,6 +9,7 @@ pipeline{
             steps{
                 sh'./mvnw clean test'
             }
+        }
         stage('Package'){
             steps{
                 sh '''
