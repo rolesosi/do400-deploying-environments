@@ -20,7 +20,7 @@ pipeline{
             }
         }
         stage('Build Image'){
-            environment {QUAY = credentials('QUAY_USER')}
+            environment { QUAY = credentials('QUAY_USER')}
             steps{
                 sh '''
                     ./mvnw quarkus:add-extension \
