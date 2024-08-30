@@ -59,3 +59,7 @@ parameters:
     description: "Image Tag"
     required: false
     value: "latest"
+  - name: APP_ENVIRONMENT
+    description: "Application environment"
+    required: false
+    value: "stage"
