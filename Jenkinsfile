@@ -4,7 +4,7 @@ pipeline{
             label 'maven'
         }
     }
-    enviroment{
+    environment{
         RHT_OCP$_DEV_USER = 'ctmhlo'
         DEPLOYMENT_STAGE = 'shopping-cart-stage'
         DEPLOYMENT_PRODUCTION = 'shopping-cart-production'
