@@ -46,7 +46,7 @@ pipeline{
             }
         }
         stage('Deploy-Stage'){
-            enviroment{
+            environment{
                 APP_NAMESPACE = "shopping-cart-stage"
                 QUAY = credentials('QUAY_USER')
             }
